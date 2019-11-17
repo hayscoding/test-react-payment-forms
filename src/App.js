@@ -2,9 +2,12 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 
+import ExampleComponent, { StripeForm } from 'react-payment-forms'
+
 function App() {
   return (
     <div className="App">
+      <StripeForm />
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
